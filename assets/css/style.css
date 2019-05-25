@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../images/fishnets-and-hearts.png);
+    background-repeat: repeat;
+    
+}
+
+header {
+    background: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #cccccc;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 50px;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    height: 96px;
+}
+
+.top{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.content{
+    width: 960px;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 1px;
+    margin-top: 135px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #ffffff;
+    margin-bottom: 100px;
+}
+
+#name {
+    background: #4aaaa5;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float:left;
+    padding: 33px;
+    margin-top: 0;
+    position: fixed;
+    top: 0px;
+    font-size: 22pt;
+    font-weight: bold;
+}
+
+li {
+    display: inline;
+}
+
+a:hover{
+    color: #4aaaa5;
+    font-size: 17pt;
+}
+
+a {
+    color: #777777;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#link1 {
+    float:right;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 0px;
+}
+
+#link2 {
+    float:right;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right-color: #cccccc;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#link3 {
+    float:right;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right-color: #cccccc;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+section{
+    clear: both;
+    overflow: auto;
+    margin-left: 30px;
+}
+
+hr{
+    color: #777777;
+    width: 96.5%;
+    margin-left: 0px;
+} 
+
+#about{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    margin-top: 0px;
+    font-size: 22pt;
+    font-weight: bold;
+}
+
+#selfie{
+    width: 200px;
+    float: left;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+}
+
+p {
+    padding-top: 20px;
+    line-height: 30px;
+    font-size: 15px;
+    margin-top: 0px;
+    padding-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+
+#footer{
+    clear: both;
+    overflow: auto;
+    background: #666666;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: #4aaaa5;
+    height: 55px;
+    font-size: 10pt;
+    color: #cccccc;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.input1 {
+    width: 96.5%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #777777;
+    padding: 3pt;
+}
+
+#message {
+    width: 96.5%;
+    height: 150px;
+    margin-top: 5px;
+    padding: 3pt;
+}
+
+#button {
+    background-color: #4aaaa5;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffffff;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    font-size:18px;
+    width: 31%;
+    float:left;
+    margin-right: 25px;
+    margin-bottom: 35px;
+}
+
+.label {
+    position: absolute;
+    bottom: 15px;
+    left: 0px;
+    right: 0px;
+    background-color: #4aaaa5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
