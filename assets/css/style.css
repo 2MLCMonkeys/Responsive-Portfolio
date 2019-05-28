@@ -146,7 +146,7 @@ footer{
     border-top-width: 5px;
     border-top-color: #4aaaa5;
     height: 65px;
-    font-size: 10pt;
+    font-size: 10px;
     color: #cccccc;
     text-align: center;
     vertical-align: bottom;
@@ -308,7 +308,6 @@ footer{
     }
     
     footer{
-        font-size:10px;
         height: 55px;
     }
     }
